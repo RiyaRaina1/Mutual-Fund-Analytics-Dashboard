@@ -309,7 +309,7 @@ python scripts/advanced_analytics.py
 Launch dashboard:
 
 ```bash
-streamlit run dashboard/app.py
+streamlit run mutual_fund_analytics/dashboard/app.py
 ```
 
 ---
@@ -366,3 +366,15 @@ If you found this project useful:
 ### Built with ❤️ using Python, Data Analytics & Fintech Intelligence
 
 </div>
+
+---
+
+# Streamlit Cloud Deployment
+
+Use these settings on Streamlit Community Cloud:
+
+- Repository: `RiyaRaina1/Mutual-Fund-Analytics-Dashboard`
+- Branch: `main`
+- Main file path: `mutual_fund_analytics/dashboard/app.py`
+
+The root `requirements.txt` is included so Streamlit Cloud can install dependencies automatically.
