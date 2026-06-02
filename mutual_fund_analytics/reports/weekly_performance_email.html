@@ -1,0 +1,210 @@
+<!doctype html>
+<html>
+<head><meta charset="utf-8">
+    <style>
+      body { font-family: Arial, sans-serif; color: #1f2933; }
+      h1, h2 { color: #14324a; }
+      .metric { display: inline-block; margin: 0 20px 20px 0; padding: 12px 16px; border: 1px solid #d8dee4; }
+      table { border-collapse: collapse; width: 100%; margin-bottom: 24px; }
+      th, td { border: 1px solid #d8dee4; padding: 8px; text-align: left; }
+      th { background: #eef3f8; }
+    </style>
+    </head>
+<body>
+  <h1>Weekly Mutual Fund Performance Summary</h1>
+  <div class="metric"><strong>Schemes tracked</strong><br>40</div>
+  <div class="metric"><strong>Total scheme AUM</strong><br>1,043,664 crore</div>
+
+  <h2>Top 10 by 3Y Return</h2>
+  <table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>scheme_name</th>
+      <th>fund_house</th>
+      <th>category</th>
+      <th>return_3yr_pct</th>
+      <th>sharpe_ratio</th>
+      <th>aum_crore</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>SBI Small Cap Fund - Regular Plan - Growth</td>
+      <td>SBI Mutual Fund</td>
+      <td>Small Cap</td>
+      <td>23.39</td>
+      <td>0.94</td>
+      <td>19259</td>
+    </tr>
+    <tr>
+      <td>SBI Small Cap Fund - Direct Plan - Growth</td>
+      <td>SBI Mutual Fund</td>
+      <td>Small Cap</td>
+      <td>23.14</td>
+      <td>0.93</td>
+      <td>36061</td>
+    </tr>
+    <tr>
+      <td>ABSL Small Cap Fund - Regular - Growth</td>
+      <td>Aditya Birla Sun Life MF</td>
+      <td>Small Cap</td>
+      <td>22.38</td>
+      <td>0.90</td>
+      <td>41613</td>
+    </tr>
+    <tr>
+      <td>Axis Small Cap Fund - Regular - Growth</td>
+      <td>Axis Mutual Fund</td>
+      <td>Small Cap</td>
+      <td>20.98</td>
+      <td>0.84</td>
+      <td>21545</td>
+    </tr>
+    <tr>
+      <td>Nippon India Small Cap Fund - Regular - Growth</td>
+      <td>Nippon India MF</td>
+      <td>Small Cap</td>
+      <td>20.15</td>
+      <td>0.81</td>
+      <td>43630</td>
+    </tr>
+    <tr>
+      <td>DSP Small Cap Fund - Regular - Growth</td>
+      <td>DSP Mutual Fund</td>
+      <td>Small Cap</td>
+      <td>20.08</td>
+      <td>0.80</td>
+      <td>35124</td>
+    </tr>
+    <tr>
+      <td>Kotak Emerging Equity Fund - Regular - Growth</td>
+      <td>Kotak Mahindra MF</td>
+      <td>Mid Cap</td>
+      <td>18.23</td>
+      <td>0.96</td>
+      <td>47469</td>
+    </tr>
+    <tr>
+      <td>ICICI Pru Midcap Fund - Regular - Growth</td>
+      <td>ICICI Prudential MF</td>
+      <td>Mid Cap</td>
+      <td>18.08</td>
+      <td>0.95</td>
+      <td>979</td>
+    </tr>
+    <tr>
+      <td>DSP Midcap Fund - Regular - Growth</td>
+      <td>DSP Mutual Fund</td>
+      <td>Mid Cap</td>
+      <td>17.16</td>
+      <td>0.90</td>
+      <td>37835</td>
+    </tr>
+    <tr>
+      <td>HDFC Mid-Cap Opportunities Fund - Regular - Growth</td>
+      <td>HDFC Mutual Fund</td>
+      <td>Mid Cap</td>
+      <td>16.58</td>
+      <td>0.87</td>
+      <td>23185</td>
+    </tr>
+  </tbody>
+</table>
+
+  <h2>Top 10 by Sharpe Ratio</h2>
+  <table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>scheme_name</th>
+      <th>fund_house</th>
+      <th>category</th>
+      <th>return_3yr_pct</th>
+      <th>sharpe_ratio</th>
+      <th>aum_crore</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>ICICI Pru Liquid Fund - Regular - Growth</td>
+      <td>ICICI Prudential MF</td>
+      <td>Liquid</td>
+      <td>7.68</td>
+      <td>7.68</td>
+      <td>39116</td>
+    </tr>
+    <tr>
+      <td>Kotak Liquid Fund - Regular - Growth</td>
+      <td>Kotak Mahindra MF</td>
+      <td>Liquid</td>
+      <td>6.18</td>
+      <td>6.18</td>
+      <td>27623</td>
+    </tr>
+    <tr>
+      <td>ABSL Liquid Fund - Regular - Growth</td>
+      <td>Aditya Birla Sun Life MF</td>
+      <td>Liquid</td>
+      <td>5.14</td>
+      <td>5.14</td>
+      <td>38995</td>
+    </tr>
+    <tr>
+      <td>HDFC Short Term Debt Fund - Regular - Growth</td>
+      <td>HDFC Mutual Fund</td>
+      <td>Short Duration</td>
+      <td>7.37</td>
+      <td>1.84</td>
+      <td>27953</td>
+    </tr>
+    <tr>
+      <td>SBI Magnum Gilt Fund - Regular Plan - Growth</td>
+      <td>SBI Mutual Fund</td>
+      <td>Gilt</td>
+      <td>6.07</td>
+      <td>1.52</td>
+      <td>24101</td>
+    </tr>
+    <tr>
+      <td>Nippon India Gilt Securities Fund - Regular - Growth</td>
+      <td>Nippon India MF</td>
+      <td>Gilt</td>
+      <td>5.31</td>
+      <td>1.33</td>
+      <td>30030</td>
+    </tr>
+    <tr>
+      <td>Mirae Asset Large Cap Fund - Regular - Growth</td>
+      <td>Mirae Asset MF</td>
+      <td>Large Cap</td>
+      <td>14.81</td>
+      <td>1.06</td>
+      <td>11361</td>
+    </tr>
+    <tr>
+      <td>HDFC Top 100 Fund - Regular Plan - Growth</td>
+      <td>HDFC Mutual Fund</td>
+      <td>Large Cap</td>
+      <td>14.84</td>
+      <td>1.06</td>
+      <td>6434</td>
+    </tr>
+    <tr>
+      <td>ICICI Pru Bluechip Fund - Direct - Growth</td>
+      <td>ICICI Prudential MF</td>
+      <td>Large Cap</td>
+      <td>14.41</td>
+      <td>1.03</td>
+      <td>41553</td>
+    </tr>
+    <tr>
+      <td>Nippon India Large Cap Fund - Regular - Growth</td>
+      <td>Nippon India MF</td>
+      <td>Large Cap</td>
+      <td>14.00</td>
+      <td>1.00</td>
+      <td>20909</td>
+    </tr>
+  </tbody>
+</table>
+</body>
+</html>
