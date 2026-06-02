@@ -345,7 +345,7 @@ streamlit run dashboard/app.py
 
 🔗 GitHub: https://github.com/RiyaRaina1
 
-🔗 LinkedIn: Add Your LinkedIn URL
+🔗 LinkedIn: https://www.linkedin.com/in/riya-raina-1rr3/
 
 ---
 
